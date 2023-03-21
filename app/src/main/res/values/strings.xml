@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Moreno_Leon_Robinson</string>
+    <string name="detalle">Detalle producto</string>
+    <string name="listado">Listado de Productos</string>
 </resources>
