@@ -14,6 +14,7 @@
         android:theme="@style/Theme.Moreno_Leon_Robinson"
         tools:targetApi="31">
         <activity
+
             android:name=".LoginActivity"
             android:theme="@style/Theme.LoginActivity"
             android:exported="true" >
@@ -23,6 +24,10 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
+
+            android:name=".DetalleActivity"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="false">
