@@ -21,7 +21,7 @@
         tools:ignore="UnknownId" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="158dp"
@@ -34,9 +34,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:ignore="UnknownId" />
+        tools:ignore="InvalidId,UnknownId" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/iniciar_sesion"
         android:layout_width="418dp"
         android:layout_height="524dp"
         android:layout_marginTop="97dp"
@@ -57,13 +58,13 @@
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/textView8"
+            app:layout_constraintBottom_toTopOf="@+id/et_correo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView8"
+        <EditText
+            android:id="@+id/et_correo"
             android:layout_width="141dp"
             android:layout_height="41dp"
             android:layout_marginStart="128dp"
@@ -75,13 +76,13 @@
             android:text="Correo"
             android:textAlignment="viewStart"
             android:textColor="#FFFFFF"
-            app:layout_constraintBottom_toTopOf="@+id/textView9"
+            app:layout_constraintBottom_toTopOf="@+id/et_contraseña"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
-        <TextView
-            android:id="@+id/textView9"
+        <EditText
+            android:id="@+id/et_contraseña"
             android:layout_width="141dp"
             android:layout_height="42dp"
             android:layout_marginStart="125dp"
@@ -96,7 +97,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+            app:layout_constraintTop_toBottomOf="@+id/et_correo" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
