@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "557956475369",
+    "project_id": "robinson-e3ed8",
+    "storage_bucket": "robinson-e3ed8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557956475369:android:da9f5f5b4c6a7149bec378",
+        "android_client_info": {
+          "package_name": "com.example.moreno_leon_robinson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557956475369-o893juad14cngleb6ei7tov8mg13mjtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi8V9XXNqPiaoJw5GBzMlDvWA2AVbR5aI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557956475369-o893juad14cngleb6ei7tov8mg13mjtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

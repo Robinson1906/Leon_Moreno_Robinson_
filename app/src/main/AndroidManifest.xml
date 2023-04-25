@@ -14,10 +14,10 @@
         android:theme="@style/Theme.Moreno_Leon_Robinson"
         tools:targetApi="31">
         <activity
-            android:name=".FormularioActivity"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".FormularioActivity"
             android:exported="true"
             android:theme="@style/Theme.LoginActivity">
             <intent-filter>
