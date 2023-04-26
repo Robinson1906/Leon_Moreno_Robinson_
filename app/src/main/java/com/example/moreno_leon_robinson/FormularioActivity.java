@@ -5,8 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.moreno_leon_robinson.producto;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import org.checkerframework.common.returnsreceiver.qual.This;
 
 public class FormularioActivity extends AppCompatActivity {
 
@@ -28,6 +32,10 @@ public class FormularioActivity extends AppCompatActivity {
         p.setPrecio(Double.parseDouble(txtPrecio.getText().toString()));
         p.setUrlimagen(txtImg.getText().toString());
 
+        FirebaseFirestore db = FirebaseFirestore.getInstance();
+        db.collection("productos").add(p);
 
+        Toast.makeText(this,"se creo el producto", Toast.LENGTH_SHORT).show();
+        finish();
     }
 }

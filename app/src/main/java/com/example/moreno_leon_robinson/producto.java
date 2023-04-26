@@ -31,6 +31,7 @@ public class producto implements Serializable {
         this.precio = precio;
     }
 
+
     public String getUrlimagen() {
         return urlimagen;
     }

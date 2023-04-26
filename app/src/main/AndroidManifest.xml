@@ -17,7 +17,7 @@
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".FormularioActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.LoginActivity">
             <intent-filter>
@@ -27,7 +27,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".FormularioActivity"
             android:exported="false" />
     </application>
 

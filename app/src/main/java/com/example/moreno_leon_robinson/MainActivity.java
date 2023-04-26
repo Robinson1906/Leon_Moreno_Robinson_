@@ -51,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
         listado_productos.setLayoutManager(new LinearLayoutManager(this));
     }
     public  void  cargarDatos(){
+
+
+
         producto producto1 = new producto();
         producto1.setNombre("computador hp");
         producto1.setPrecio(500000.0);
